@@ -167,7 +167,7 @@
         "titre": "Portfolio Personnel",
         "description": "Mon site portfolio développé avec React, TypeScript et Tailwind. Responsive et rapide grâce à Vite.",
         "technologies": ["React", "TypeScript", "Tailwind", "Vite"],
-        "github": "https://github.com/ton-profil/portfolio",
+        "github": "https://github.com/Fandu11/Portofolio",
         "demo": "https://tonportfolio.com",
         "imageKey": "portfolio",
         "date": "2025"

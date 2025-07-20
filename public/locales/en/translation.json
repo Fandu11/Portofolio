@@ -167,7 +167,7 @@
         "titre": "Personal Portfolio",
         "description": "My portfolio website built with React, TypeScript, and Tailwind. Responsive and fast thanks to Vite.",
         "technologies": ["React", "TypeScript", "Tailwind", "Vite"],
-        "github": "https://github.com/ton-profil/portfolio",
+        "github": "https://github.com/Fandu11/Portofolio",
         "demo": "https://tonportfolio.com",
         "imageKey": "portfolio",
         "date": "2025"
