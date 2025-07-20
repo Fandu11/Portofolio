@@ -1,0 +1,248 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "passions": "Passions",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "language": {
+    "fr": "French",
+    "en": "English",
+    "mg": "Malagasy",
+    "switch": "Change language"
+  },
+  "loading": "Loading...",
+  "hero": {
+    "title": "Hoareau Faniry",
+    "subtitle": "Application Developer",
+    "cta": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "profilePhotoAlt": "Faniry's profile photo",
+    "age": "Age",
+    "years": "years old",
+    "location": "Born in",
+    "city": "Saint-Denis, Reunion Island",
+    "status": "Status",
+    "education": "Master's Degree in Software Engineering Student",
+    "languages": "Languages",
+    "languageList": "French (native), English (fluent), Malagasy (native)",
+    "description": "Young developer passionate about creating modern and efficient web applications. Curious and self-taught, I enjoy exploring new technologies and applying my knowledge through personal projects.",
+    "paragraph1": "I am motivated by the desire to learn and improve. Although I still lack experience, I am determined to make up for it by getting involved in concrete and stimulating projects. Every opportunity represents a chance for me to grow professionally.",
+    "paragraph2": "My goal is to develop my skills in a collaborative environment while contributing to meaningful projects. I am ready to take on challenges, learn from others, and bring my energy and motivation to a dynamic team.",
+    "paragraph3": "Currently, I am pursuing a Master's in Software Engineering at the University of Bordeaux, which allows me to deepen my knowledge in software design, architecture, and IT project management while developing a rigorous professional approach."
+  },
+  "experience": {
+    "title": "My Journey",
+    "items": [
+      {
+        "type": "experience",
+        "title": "Regional Volleyball Championship",
+        "subtitle": "Nouvelle-Aquitaine",
+        "date": "2025",
+        "description": "Participation in the regional volleyball championship in Nouvelle-Aquitaine.\n\nExperience:\n- Competition at the highest regional level\n- Intensive teamwork\n- Development of technical and tactical skills"
+      },
+      {
+        "type": "education",
+        "title": "Master's in Software Engineering",
+        "subtitle": "University of Bordeaux",
+        "date": "2024 - present",
+        "description": "Specialized in software development and maintenance.\n\nIt focuses on two fundamental aspects of Software Engineering: project management and application design.\n\nThe advanced database option enhances training in data storage."
+      },
+      {
+        "type": "experience",
+        "title": "Participant in Nuit de l'Info",
+        "subtitle": "National Event",
+        "date": "December 2023 and December 2024",
+        "description": "Participation in the national team programming event.\n\nProjects completed:\n- Team development of IT solutions\n- Night programming challenges\n- Collaboration with experienced developers"
+      },
+      {
+        "type": "experience",
+        "title": "Network Administration Internship",
+        "subtitle": "ONIFRa - Madagascar",
+        "date": "July 2024",
+        "description": "Network administration internship at a developing university.\n\nResponsibilities:\n- Network configuration and maintenance\n- IT infrastructure deployment"
+      },
+      {
+        "type": "education",
+        "title": "Bachelor's in Programming and Digital Innovation Tools",
+        "subtitle": "INU Champollion - Albi",
+        "date": "2022 - 2024",
+        "description": "Choose data structures based on a given problem.\n\nBuild algorithms suited to a problem.\n\nDesign and use databases (pSQL, SQL, NoSQL).\n\nUnderstand computer content and operation.\n\nUse multiple programming languages and paradigms (Python, Java, OCAML, ...).\n\nCharacterize the operation of systems and networks.\n\nSecure systems and networks.\n\nSolve complex problems by breaking them down"
+      },
+      {
+        "type": "experience",
+        "title": "Seasonal Agricultural Worker",
+        "subtitle": "Farm",
+        "date": "June - August 2022",
+        "description": "Seasonal work on a farm.\n\nResponsibilities:\n- Cultivation and harvesting\n- Crop maintenance\n- Teamwork"
+      },
+      {
+        "type": "education",
+        "title": "Double Degree in Mathematics and Computer Science",
+        "subtitle": "INU Champollion - Albi",
+        "date": "2021 - 2022",
+        "description": "Solid foundation in two complementary and fundamental fields.\n\nStudy of numeration, coding, sets, as well as the principles of linear algebra and analysis.\n\nIntroduction to imperative programming in Python, object-oriented programming in Java, and data structures, laying the foundations for effective software development.\n\nStudy of operating systems, computer networks, and computer architecture."
+      },
+      {
+        "type": "education",
+        "title": "High School Diploma",
+        "subtitle": "French High School of Tananarive (Madagascar)",
+        "date": "2018 - 2021",
+        "description": "Specializations: Mathematics, Computer Science (NSI), Plastic Arts (11th and 12th grade), Biology (11th grade)"
+      },
+      {
+        "type": "education",
+        "title": "French Middle School Jules Verne",
+        "subtitle": "Antsirabe, Madagascar (Affiliated with La Réunion)",
+        "date": "2006 - 2018",
+        "description": "Complete education from kindergarten to middle school in a French institution"
+      }
+    ]
+  },
+  "skills": {
+    "title": "My Skills",
+    "categories": {
+      "qualities": "Qualities",
+      "skills": "Skills",
+      "languages": "Languages",
+      "frontend": "Front-End",
+      "backend": "Back-End",
+      "tools": "Tools & Others"
+    },
+    "items": {
+      "qualities": ["Determined", "Team player", "Autonomous", "Dynamic"],
+      "skills": ["Application development", "Analytical thinking", "Web development", "Mastery of multiple programming paradigms", "Information research"],
+      "languages": ["Java", "Python", "OCaml", "Caml", "JavaScript", "TypeScript", "C"],
+      "frontend": ["React", "Angular", "HTML", "CSS", "Tailwind CSS", "Vite"],
+      "backend": ["Node.js", "Express", "MongoDB", "PostgreSQL", "MySQL"],
+      "tools": ["Git", "GitHub", "Docker", "React Native", "Godot"]
+    }
+  },
+  "passions": {
+    "title": "My Passions",
+    "items": [
+      {
+        "title": "DIY & Handicrafts",
+        "description": "Passion for construction and manual work, with experience in DIY and home improvement.",
+        "icon": "🏗️"
+      },
+      {
+        "title": "Problem Solving",
+        "description": "Ability to achieve goals, even modest ones, by finding creative and effective solutions.",
+        "icon": "🎯"
+      },
+      {
+        "title": "Discovering New Things",
+        "description": "Curiosity and interest in continuous learning and discovering new technologies and cultures.",
+        "icon": "🔍"
+      },
+      {
+        "title": "Volleyball",
+        "description": "Regular practice of volleyball, both competitively and recreationally.",
+        "icon": "🏐"
+      },
+      {
+        "title": "Basketball",
+        "description": "Team basketball games and regular training sessions.",
+        "icon": "🏀"
+      },
+      {
+        "title": "Hiking",
+        "description": "Nature exploration and mountain hiking.",
+        "icon": "🏔️"
+      }
+    ]
+  },
+  "projects": {
+    "title": "My Projects",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "items": [
+      {
+        "titre": "Personal Portfolio",
+        "description": "My portfolio website built with React, TypeScript, and Tailwind. Responsive and fast thanks to Vite.",
+        "technologies": ["React", "TypeScript", "Tailwind", "Vite"],
+        "github": "https://github.com/ton-profil/portfolio",
+        "demo": "https://tonportfolio.com",
+        "imageKey": "portfolio",
+        "date": "2025"
+      },
+      {
+        "titre": "WaterMine",
+        "description": "A web application dedicated to raising awareness about the state of water worldwide. It features discussion rooms for exchanging ideas and sustainable solutions. Users can create an account and log in through a secure authentication system.",
+        "technologies": ["React", "Node.js", "Three.js", "TypeScript", "TailwindCSS"],
+        "github": "https://github.com/Fandu11/WaterMine",
+        "imageKey": "watermine",
+        "date": "December 2024"
+      },
+      {
+        "titre": "AideEco",
+        "description": "An educational website designed to inform and raise awareness about the effects of global warming. It features illustrated and dynamic content to better understand environmental urgency.",
+        "technologies": ["Express", "JavaScript"],
+        "github": "https://github.com/Fandu11/AideEco",
+        "imageKey": "aide-eco",
+        "date": "December 2023"
+      },
+      {
+        "titre": "Borrow Me",
+        "description": "An application that allows users to offer items to borrow or services to provide, facilitating sharing and mutual aid within a community.",
+        "technologies": ["React", "Node.js", "Express", "MongoDB", "JavaScript", "CSS"],
+        "github": "https://github.com/Fandu11/Prete_moi",
+        "imageKey": "prete-moi",
+        "date": "2024"
+      },
+      {
+        "titre": "Interactive Labyrinth Game",
+        "description": "A physical maze game based on an LED matrix and controlled by a joystick. The player moves a light point through a course, with remote data communication.",
+        "technologies": ["Arduino", "Joystick", "LED Matrix", "Serial Communication", "7-Segment Display"],
+        "github": "https://github.com/Fandu11/Labyrinthe",
+        "imageKey": "labyrinthe",
+        "date": "2024"
+      },
+      {
+        "titre": "ChampoLove",
+        "description": "A dating application that facilitates connections between people with shared interests. The app offers matching features, chat, and secure meetup organization.",
+        "technologies": ["Java", "JavaFX", "JavaSwing"],
+        "github": "https://github.com/Fandu11/ChampoLove",
+        "imageKey": "champolove",
+        "date": "2023"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "Your email",
+      "message": "Message",
+      "messagePlaceholder": "Your message...",
+      "captchaLabel": "Captcha",
+      "captchaPlaceholder": "Enter the characters",
+      "captchaIncorrect": "Incorrect answer",
+      "captchaRegenerate": "Regenerate captcha",
+      "sendButton": "Send Message",
+      "sending": "Sending...",
+      "successMessage": "Message sent successfully! I'll get back to you as soon as possible.",
+      "errorMessage": "An error occurred while sending the message. Please try again later."
+    },
+    "info": {
+      "title": "Contact Information",
+      "location": "Bordeaux, France",
+      "email": "hoareaufaniry@gmail.com",
+      "phone": "07 83 80 00 97",
+      "linkedin": "LinkedIn",
+      "linkedinUrl": "https://www.linkedin.com/in/hoareau-faniry/"
+    }
+  },
+  "footer": {
+    "copyright": "All rights reserved",
+    "madeWith": "Made with {{tech}}"
+  }
+}

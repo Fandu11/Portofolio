@@ -1,0 +1,248 @@
+{
+  "navbar": {
+    "home": "Fandraisana",
+    "about": "Momba ahy",
+    "skills": "Fahaizana",
+    "experience": "Traikefa",
+    "passions": "Zotom-po",
+    "projects": "Tetik'asa",
+    "contact": "Fifandraisana"
+  },
+  "language": {
+    "fr": "Frantsay",
+    "en": "Anglisy",
+    "mg": "Malagasy",
+    "switch": "Hanjanoa fiteny"
+  },
+  "loading": "Miandry kely azafady...",
+  "hero": {
+    "title": "Hoareau Faniry",
+    "subtitle": "Mpamorona rindrankajy",
+    "cta": "Mifandraisa amiko"
+  },
+  "about": {
+    "title": "Mombamomba Ahy",
+    "profilePhotoAlt": "Sary famantarana an'i Faniry",
+    "age": "Taona",
+    "years": "taona",
+    "location": "Teraka any",
+    "city": "Saint-Denis, La Réunion",
+    "status": "Sata",
+    "education": "Mpianatra Master en Génie Logiciel",
+    "languages": "Fiteny",
+    "languageList": "Frantsay (teny nibeazana), Anglisy (mahay), Gasy (teny nibeazana)",
+    "description": "Tanora mpamorona rindrankajy mazoto liana amin'ny famoronana rindran-tserasera maoderina sy mahomby. Mpikaroka sy mpianatra irery aho, tia mikaroka teknolojia vaovao sy mampiasa ny fahalalako amin'ny alalan'ny tetikasa manokana.",
+    "paragraph1": "Mandrisika ahy ny faniriana hianatra sy hiakatra. Na dia mbola tsy manana traikefa be aza aho, azo antoka fa haniry haneho ny fahamendrehako amin'ny alàlan'ny fandraisana anjara amin'ny tetikasa azo tsapain-tanana sy mampirisika. Ny fahafahana rehetra dia fahafahana hanatsarana ny fahaizako ara-piasana ho ahy.",
+    "paragraph2": "Ny tanjoko dia ny hanatsara ny fahaizako ao anatin'ny tontolo iaraha-miasa, raha mampiasa azy koa amin'ny tetikasa manan-danja. Vonona aho hiady, hianatra amin'ny hafa, ary hanome ny heriko sy ny herim-ko ho an'ny ekipa mavitrika iray.",
+    "paragraph3": "Amin'izao fotoana izao, mianatra Master en Génie Logiciel aho any amin'ny Oniversiten'i Bordeaux, izay ahafahako manamafy ny fahalalako momba ny famolavolana, ny arsiteran'ny rindrankajy, ary ny fitantanana tetikasa informatika raha mampiroborobo fomba fiasa matotra sy matihanina."
+  },
+  "experience": {
+    "title": "Ny lalana nalehako",
+    "items": [
+      {
+        "type": "experience",
+        "title": "Fifaninanana volley-ball faritany",
+        "subtitle": "Nouvelle-Aquitaine",
+        "date": "2025",
+        "description": "Fandraisana anjara tamin'ny fifaninanana volley-ball faritany tany Nouvelle-Aquitaine.\n\nTraikefa:\n- Fifaninanana amin'ny ambaratonga faritany ambony indrindra\n- Fiaraha-miasa mafy\n- Fampivoarana ny fahaizana ara-teknika sy ara-tetika"
+      },
+      {
+        "type": "education",
+        "title": "Master en Génie Logiciel",
+        "subtitle": "Université de Bordeaux",
+        "date": "2024 - ankehitriny",
+        "description": "Manokana amin'ny famolavolana sy ny fikojakojana rindrankajy.\n\nMifantoka amin'ny lafiny roa lehibe amin'ny Génie Logiciel: fitantanana tetikasa sy ny famolavolana rindrankajy.\n\nNy safidy base de données avancée dia manatsara ny fampiofanana amin'ny fitehirizana angona."
+      },
+      {
+        "type": "experience",
+        "title": "Mpikambana tamin'ny Nuit de l'Info",
+        "subtitle": "Hetsika nasionaly",
+        "date": "Desambra 2023 sy Desambra 2024",
+        "description": "Fandraisana anjara tamin'ny hetsika fampivoarana rindrankajy nasionaly.\n\nTetik'asa natao:\n- Fivoarana vahaolana informatika miaraka amin'ny ekipa\n- Fanamby fandaharana alina\n- Fiaraha-miasa amin'ny mpandrindra rindrankajy efa zatra"
+      },
+      {
+        "type": "experience",
+        "title": "Stage en Administration Réseau",
+        "subtitle": "ONIFRa - Madagasikara",
+        "date": "Jolay 2024",
+        "description": "Fampiofanana momba ny fandrindrana tambajotra ao amin'ny oniversite mivoatra.\n\nAndraikitra:\n- Fandrindrana sy fikojakojana ny tambajotra\n- Fananganana ny rafitra informatika"
+      },
+      {
+        "type": "education",
+        "title": "Licence Programmation et outils de l'innovation numérique",
+        "subtitle": "INU Champollion - Albi",
+        "date": "2022 - 2024",
+        "description": "Mifidy rafitra angona mifototra amin'ny olana iray.\n\nMamorona algorithmes mety amin'ny olana.\n\nMamorona sy mampiasa base de données (pSQL, SQL, noSQL).\n\nMahafantatra ny votoatiny sy ny fiasan'ny solosaina.\n\nMampiasa fiteny programmation maro sy paradigme maro (Python, Java, OCAML, ...).\n\nMamaritra ny fiasan'ny rafitra sy ny tambajotra.\n\nMiaro ny rafitra sy ny tambajotra.\n\nMamaha olana sarotra amin'ny fizarana azy"
+      },
+      {
+        "type": "experience",
+        "title": "Mpiasa momban'ny fambolena vanim-potoana",
+        "subtitle": "Tany fambolena",
+        "date": "Jona - Aogositra 2022",
+        "description": "Asa fahavaratra tany ambanivohitra.\n\nAndraikitra:\n- Fambolena sy fijinjana\n- Fikojakojana ny vokatra\n- Fiaraha-miasa"
+      },
+      {
+        "type": "education",
+        "title": "Licence double Mathématiques et Informatique",
+        "subtitle": "INU Champollion - Albi",
+        "date": "2021 - 2022",
+        "description": "Fototra mafy amin'ny sehatra roa mifameno sy fototra.\n\nFianarana ny isa, ny kaody, ny vondrona, ary ny fitsipiky ny aljebra sy ny fanadihadiana.\n\nFampidirana amin'ny fandaharana mampanery amin'ny Python, fandaharana orienté objet amin'ny Java, ary ny rafitra angona, mametraka fototra ho an'ny fampivoarana rindrankajy mahomby.\n\nFianarana ny rafitra fiasa, ny tambajotra informatika, ary ny firafitry ny solosaina."
+      },
+      {
+        "type": "education",
+        "title": "Baccalauréat Général",
+        "subtitle": "Lycée français de Tananarive (Madagasikara)",
+        "date": "2018 - 2021",
+        "description": "Fifantohana: Mathématiques, NSI (Numérique et Sciences de l'Informatique), Option Art Plastique (Première et Terminale), SVT (Première)"
+      },
+      {
+        "type": "education",
+        "title": "Collège Français Jules Verne",
+        "subtitle": "Antsirabe, Madagasikara (Mpikambana ao La Réunion)",
+        "date": "2006 - 2018",
+        "description": "Fampiofanana feno hatrany amin'ny jardin d'enfants ka hatramin'ny collège ao amin'ny sekoly frantsay"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Ny Fahaizako",
+    "categories": {
+      "qualities": "Toetra",
+      "skills": "Fahaizana",
+      "languages": "Fiteny",
+      "frontend": "Front-End",
+      "backend": "Back-End",
+      "tools": "Fitaovana & Hafla"
+    },
+    "items": {
+      "qualities": ["Tapa-kevitra", "Mpiara-miasa tsara", "Mahaleotena", "Mavitrika"],
+      "skills": ["Famoronana rindrankajy", "Fahaizana mandinika", "Famoronana tranonkala", "Fahafantarana ny fomba fandaharana maro samihafa", "Fikarohana vaovao"],
+      "languages": ["Java", "Python", "OCaml", "Caml", "JavaScript", "TypeScript", "C"],
+      "frontend": ["React", "Angular", "HTML", "CSS", "Tailwind CSS", "Vite"],
+      "backend": ["Node.js", "Express", "MongoDB", "PostgreSQL", "MySQL"],
+      "tools": ["Git", "GitHub", "Docker", "React Native", "Godot"]
+    }
+  },
+  "passions": {
+    "title": "Ny Fitiavako",
+    "items": [
+      {
+        "title": "Asa Tanana sy Fanamboarana",
+        "description": "Fitiavan'ny asa tanana sy ny fanamboarana, manana traikefa amin'ny asa tanana sy fanamboarana trano.",
+        "icon": "🏗️"
+      },
+      {
+        "title": "Fahavahaovana sy Vahaolana",
+        "description": "Fahaizana mahatratra tanjona, na kely aza izy ireo, amin'ny alalan'ny fikarohana vahaolana mamorona sy mahomby.",
+        "icon": "🎯"
+      },
+      {
+        "title": "Fikarohana Zavavao",
+        "description": "Firehetam-po sy fahalianana amin'ny fianarana miharihary sy fahitana teknolojia sy kolontsaina vaovao.",
+        "icon": "🔍"
+      },
+      {
+        "title": "Volley-Ball",
+        "description": "Fanaovana volley-ball matetika, amin'ny fomba fifaninanana sy fialamboly.",
+        "icon": "🏐"
+      },
+      {
+        "title": "Basket-Ball",
+        "description": "Lalao basket-ball amin'ny ekipa sy fiofanana matetika.",
+        "icon": "🏀"
+      },
+      {
+        "title": "Fitsangatsanganana",
+        "description": "Fikarohana ny voajanahary sy fitsangatsanganana an-tendrombohitra.",
+        "icon": "🏔️"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Ny Tetikasako",
+    "viewProject": "Jereo ny tetikasa",
+    "viewCode": "Jereo ny kaody",
+    "items": [
+      {
+        "titre": "Porti-pamantarana ahy",
+        "description": "Ny tranokala porti-pamantarana ahy noforonina tamin'ny React, TypeScript ary Tailwind. Azo ampiasaina amin'ny fitaovana samihafa ary haingana noho ny Vite.",
+        "technologies": ["React", "TypeScript", "Tailwind", "Vite"],
+        "github": "https://github.com/ton-profil/portfolio",
+        "demo": "https://tonportfolio.com",
+        "imageKey": "portfolio",
+        "date": "2025"
+      },
+      {
+        "titre": "WaterMine",
+        "description": "Fampiharana web natao hanatsarana ny fahafantarana mikasika ny toetran'ny rano manerantany. Manana efitrano resadresahana izay ahatanterahana hevitra sy vahaolana maharitra. Afaka mamorona kaonty sy hiditra amin'ny alàlan'ny rafitra fahamarinana azo antoka ny mpampiasa.",
+        "technologies": ["React", "Node.js", "Three.js", "TypeScript", "TailwindCSS"],
+        "github": "https://github.com/Fandu11/WaterMine",
+        "imageKey": "watermine",
+        "date": "Desambra 2024"
+      },
+      {
+        "titre": "AideEco",
+        "description": "Tranonkala fampahafantarana natao hampahafantatra sy hampahatsiahy ny olona momba ny vokatry ny fiakaran'ny maripana eto an-tany. Mampiseho votoaty sary sy mavitrika mba hahatakarana tsara ny maika ara-tontolo iainana.",
+        "technologies": ["Express", "JavaScript"],
+        "github": "https://github.com/Fandu11/AideEco",
+        "imageKey": "aide-eco",
+        "date": "Desambra 2023"
+      },
+      {
+        "titre": "Raiso Ahy",
+        "description": "Fampiharana ahafahan'ny mpampiasa manolotra zavatra hoharamina na tolotra omena, manamora ny fizarana sy ny fifampiantrana ao amin'ny fiaraha-monina.",
+        "technologies": ["React", "Node.js", "Express", "MongoDB", "JavaScript", "CSS"],
+        "github": "https://github.com/Fandu11/Prete_moi",
+        "imageKey": "prete-moi",
+        "date": "2024"
+      },
+      {
+        "titre": "Lalao Labyrinthe Mavitrika",
+        "description": "Lalao labyrinthe ara-batana mifototra amin'ny matrice LED ary miasa amin'ny alalan'ny joystick. Ny mpilalao no mampifindra teboka mazava manerana ny lalana, miaraka amin'ny fifandraisana angona lavitra.",
+        "technologies": ["Arduino", "Joystick", "Matrice LED", "Fifandraisana Série", "Famantarana 7 segments"],
+        "github": "https://github.com/Fandu11/Labyrinthe",
+        "imageKey": "labyrinthe",
+        "date": "2024"
+      },
+      {
+        "titre": "ChampoLove",
+        "description": "Fampiharana finday fanaovana fifankatiavana izay manamora ny fifandraisana eo amin'ireo olona manana zava-kendry iraisana. Manolotra tolotra mampifanaraka, chat ary fandamina fihaonana amim-piarovana ny fampiharana.",
+        "technologies": ["Java", "JavaFX", "JavaSwing"],
+        "github": "https://github.com/Fandu11/ChampoLove",
+        "imageKey": "champolove",
+        "date": "2023"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Fifandraisana",
+    "form": {
+      "name": "Anarana",
+      "namePlaceholder": "Ny anaranao",
+      "email": "Mailaka",
+      "emailPlaceholder": "Ny adiresy mailakao",
+      "message": "Hafatra",
+      "messagePlaceholder": "Soraty eto ny hafatrao...",
+      "captchaLabel": "Captcha",
+      "captchaPlaceholder": "Ampidiro ny litera",
+      "captchaIncorrect": "Diso ny valiny",
+      "captchaRegenerate": "Hamorina indray ny captcha",
+      "sendButton": "Alefa ny hafatra",
+      "sending": "Alefa...",
+      "successMessage": "Nalefa soa aman-tsara ny hafatrao! Hiverenako anao haingana araka izay azo atao.",
+      "errorMessage": "Nisy olana niseho rehefa nandefa ny hafatra. Mba andramo indray azafady."
+    },
+    "info": {
+      "title": "Fifandraisana",
+      "location": "Bordeaux, Frantsa",
+      "email": "hoareaufaniry@gmail.com",
+      "phone": "07 83 80 00 97",
+      "linkedin": "LinkedIn",
+      "linkedinUrl": "https://www.linkedin.com/in/hoareau-faniry/"
+    }
+  },
+  "footer": {
+    "copyright": "Derec' rehetra voatokana",
+    "madeWith": "Natao tamin'ny {{tech}}"
+  }
+}

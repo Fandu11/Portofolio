@@ -1,0 +1,248 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "experience": "Parcours",
+    "passions": "Passions",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "language": {
+    "fr": "Français",
+    "en": "Anglais",
+    "mg": "Malagasy",
+    "switch": "Changer de langue"
+  },
+  "loading": "Chargement...",
+  "hero": {
+    "title": "Hoareau Faniry",
+    "subtitle": "Développeur d'applications",
+    "cta": "Me contacter"
+  },
+  "about": {
+    "title": "À Propos de Moi",
+    "profilePhotoAlt": "Photo de profil de Faniry",
+    "age": "Âge",
+    "years": "ans",
+    "location": "Né à",
+    "city": "Saint-Denis, Île de la Réunion",
+    "status": "Statut",
+    "education": "Étudiant en Master Génie Logiciel",
+    "languages": "Langues",
+    "languageList": "Français (natif), Anglais (courant), Malgache (natif)",
+    "description": "Jeune développeur passionné par la création d'applications web modernes et performantes. Curieux et autodidacte, j'aime explorer de nouvelles technologies et mettre en pratique mes connaissances à travers des projets personnels.",
+    "paragraph1": "Je suis motivé par l'envie d'apprendre et de progresser. Bien que je manque encore d'expérience, je suis déterminé à combler ce manque en m'impliquant dans des projets concrets et stimulants. Chaque opportunité représente pour moi une occasion de grandir professionnellement.",
+    "paragraph2": "Mon objectif est de développer mes compétences dans un environnement collaboratif, tout en contribuant à des projets qui ont du sens. Je suis prêt à relever des défis, à apprendre des autres et à apporter mon énergie et ma motivation à une équipe dynamique.",
+    "paragraph3": "Actuellement, je poursuis un Master en Génie Logiciel à l'Université de Bordeaux, ce qui me permet d'approfondir mes connaissances en conception, architecture logicielle et en gestion de projets informatiques tout en développant une approche professionnelle rigoureuse."
+  },
+  "experience": {
+    "title": "Mon Parcours",
+    "items": [
+      {
+        "type": "experience",
+        "title": "Championnat Régional de Volley-Ball",
+        "subtitle": "Nouvelle-Aquitaine",
+        "date": "2025",
+        "description": "Participation au championnat régional de volley-ball en Nouvelle-Aquitaine.\n\nExpérience :\n- Compétition au plus haut niveau régional\n- Travail d'équipe intensif\n- Développement des compétences techniques et tactiques"
+      },
+      {
+        "type": "education",
+        "title": "Master Génie Logiciel",
+        "subtitle": "Université de Bordeaux",
+        "date": "2024 - présent",
+        "description": "Spécialisés dans le développement et la maintenance de logiciels. \n\nElle s'articule autour de deux aspects fondamentaux du métier de Génie Logiciel : la conduite de projet et la conception d'applications. \n\nL'option Base de données avancées permet de parfaire la formation en stockage de données."
+      },
+      {
+        "type": "experience",
+        "title": "Participant à la Nuit de l'Info",
+        "subtitle": "Événement National",
+        "date": "Décembre 2023 et en Décembre 2024",
+        "description": "Participation à l'événement national de programmation en équipe.\n\nProjets réalisés :\n- Développement de solutions informatiques en équipe\n- Défis de programmation nocturne\n- Collaboration avec des développeurs expérimentés"
+      },
+      {
+        "type": "experience",
+        "title": "Stage en Administration Réseau",
+        "subtitle": "ONIFRa - Madagascar",
+        "date": "Juillet 2024",
+        "description": "Stage en administration réseau au sein d'une université en développement.\n\nResponsabilités :\n- Configuration et maintenance du réseau\n- Déploiement de l'infrastructure informatique"
+      },
+      {
+        "type": "education",
+        "title": "Licence Programmation et outils de l'innovation numérique",
+        "subtitle": "INU Champollion - Albi",
+        "date": "2022 - 2024",
+        "description": "Choisir des structures de données en fonction d'un problème donné.\n\nConstruire des algorithmes adaptés à un problème.\n\nConcevoir et exploiter des bases de données (pSQL,SQL,noSQL).\n\nConnaitre  le contenu et le fonctionnement d'un ordinateur.\n\nUtiliser plusieurs langages de programmation et plusieurs paradigmes (Python, Java, OCAML,...) .\n\nCaractériser le fonctionnement des systèmes et des réseaux .\n\nSécuriser des systèmes et des réseaux.\n\nRésoudre des problèmes complexes en les décomposant"
+      },
+      {
+        "type": "experience",
+        "title": "Travailleur Agricole Saisonnier",
+        "subtitle": "Exploitation Agricole",
+        "date": "Juin - Août 2022",
+        "description": "Travail saisonnier dans une exploitation agricole.\n\nResponsabilités :\n- Culture et récolte\n- Entretien des cultures\n- Travail en équipe"
+      },
+      {
+        "type": "education",
+        "title": "Double Licence Mathématiques et Informatique",
+        "subtitle": "INU Champollion - Albi",
+        "date": "2021 - 2022",
+        "description": "Bases solides dans deux domaines complémentaires et fondamentaux.\n\nEtude de la numération et du codage, des ensembles, ainsi que les principes d'algèbre linéaire et d'analyse.\n\nInitialisation à la programmation impérative en Python, à la programmation orientée objet en Java, ainsi qu'à la structure de données, posant les fondations d'un développement logiciel efficace. \n\nEtude des systèmes d'exploitation, de réseau informatique, et l'architecture des ordinateurs."
+      },
+      {
+        "type": "education",
+        "title": "Baccalauréat Général",
+        "subtitle": "Lycée français de Tananarive (Madagascar)",
+        "date": "2018 - 2021",
+        "description": "Spécialités : Mathématiques, NSI (Numérique et Science de l'Informatique), Option Art Plastique (Première et Terminale), SVT (Première)"
+      },
+      {
+        "type": "education",
+        "title": "Collège Français Jules Verne",
+        "subtitle": "Antsirabe, Madagascar (Affilié à La Réunion)",
+        "date": "2006 - 2018",
+        "description": "Formation complète de la maternelle au collège au sein d'un établissement français"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Mes Compétences",
+    "categories": {
+      "qualities": "Qualités",
+      "skills": "Compétences",
+      "languages": "Langages",
+      "frontend": "Front-End",
+      "backend": "Back-End",
+      "tools": "Outils & Autres"
+    },
+    "items": {
+      "qualities": ["Déterminé", "Solidaire", "Autonome", "Dynamique"],
+      "skills": ["Création d'application", "Esprit d'analyse", "Création de site web", "Maîtrise de plusieurs paradigmes de programmation", "Recherche d'informations"],
+      "languages": ["Java", "Python", "OCaml", "Caml", "JavaScript", "TypeScript", "C"],
+      "frontend": ["React", "Angular", "HTML", "CSS", "Tailwind CSS", "Vite"],
+      "backend": ["Node.js", "Express", "MongoDB", "PostgreSQL", "MySQL"],
+      "tools": ["Git", "GitHub", "Docker", "React Native", "Godot"]
+    }
+  },
+  "passions": {
+    "title": "Mes Passions",
+    "items": [
+      {
+        "title": "Bricolage",
+        "description": "Passion pour la construction et les travaux manuels, avec une expérience en bricolage et aménagement.",
+        "icon": "🏗️"
+      },
+      {
+        "title": "Résolution de Problèmes",
+        "description": "Capacité à atteindre des objectifs, même modestes, en trouvant des solutions créatives et efficaces.",
+        "icon": "🎯"
+      },
+      {
+        "title": "Découverte de Nouvelles Choses",
+        "description": "Curiosité et intérêt pour l'apprentissage continu et la découverte de nouvelles technologies et cultures.",
+        "icon": "🔍"
+      },
+      {
+        "title": "Volley-Ball",
+        "description": "Pratique régulière du volley-ball en compétition et loisir.",
+        "icon": "🏐"
+      },
+      {
+        "title": "Basket-Ball",
+        "description": "Jeu de basket-ball en équipe et entraînements réguliers.",
+        "icon": "🏀"
+      },
+      {
+        "title": "Randonnée",
+        "description": "Exploration de la nature et randonnées en montagne.",
+        "icon": "🏔️"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Mes Projets",
+    "viewProject": "Voir le projet",
+    "viewCode": "Voir le code",
+    "items": [
+      {
+        "titre": "Portfolio Personnel",
+        "description": "Mon site portfolio développé avec React, TypeScript et Tailwind. Responsive et rapide grâce à Vite.",
+        "technologies": ["React", "TypeScript", "Tailwind", "Vite"],
+        "github": "https://github.com/ton-profil/portfolio",
+        "demo": "https://tonportfolio.com",
+        "imageKey": "portfolio",
+        "date": "2025"
+      },
+      {
+        "titre": "WaterMine",
+        "description": "Une application web dédiée à la sensibilisation autour de l'état de l'eau dans le monde. Elle propose des salons de discussion pour échanger des idées et des solutions durables. Les utilisateurs peuvent créer un compte, se connecter via un système d'authentification sécurisé.",
+        "technologies": ["React", "Node.js", "Three.js", "TypeScript", "TailwindCSS"],
+        "github": "https://github.com/Fandu11/WaterMine",
+        "imageKey": "watermine",
+        "date": "décembre 2024"
+      },
+      {
+        "titre": "AideEco",
+        "description": "Un site web éducatif conçu pour informer et sensibiliser les utilisateurs aux effets du réchauffement climatique. Il présente des contenus illustrés et dynamiques pour mieux comprendre l'urgence environnementale.",
+        "technologies": ["Express", "JavaScript"],
+        "github": "https://github.com/Fandu11/AideEco",
+        "imageKey": "aide-eco",
+        "date": "décembre 2023"
+      },
+      {
+        "titre": "Prête moi",
+        "description": "Une application qui permet aux utilisateurs de proposer des objets à emprunter ou des services à rendre, facilitant le partage et l'entraide au sein d'une communauté.",
+        "technologies": ["React", "Node.js", "Express", "MongoDB", "JavaScript", "CSS"],
+        "github": "https://github.com/Fandu11/Prete_moi",
+        "imageKey": "prete-moi",
+        "date": "2024"
+      },
+      {
+        "titre": "Jeu de Labyrinthe Interactif",
+        "description": "Un jeu de labyrinthe physique basé sur une matrice de LED et contrôlé par un joystick. Le joueur déplace un point lumineux à travers un parcours, avec une communication de données à distance.",
+        "technologies": ["Arduino", "Joystick", "Matrice LED", "Communication Série", "Afficheur 7 segments"],
+        "github": "https://github.com/Fandu11/Labyrinthe",
+        "imageKey": "labyrinthe",
+        "date": "2024"
+      },
+      {
+        "titre": "ChampoLove",
+        "description": "Une application mobile de rencontres qui facilite les rencontres entre personnes partageant des centres d'intérêt communs. L'application propose des fonctionnalités de matching, de chat et d'organisation de rencontres en toute sécurité.",
+        "technologies": ["Java", "JavaFX", "JavaSwing"],
+        "github": "https://github.com/Fandu11/ChampoLove",
+        "imageKey": "champolove",
+        "date": "2023"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "Email",
+      "emailPlaceholder": "Votre email",
+      "message": "Message",
+      "messagePlaceholder": "Votre message...",
+      "captchaLabel": "Captcha",
+      "captchaPlaceholder": "Entrez les caractères",
+      "captchaIncorrect": "La réponse est incorrecte",
+      "captchaRegenerate": "Régénérer le captcha",
+      "sendButton": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "successMessage": "Message envoyé avec succès ! Je vous répondrai dès que possible.",
+      "errorMessage": "Une erreur est survenue lors de l'envoi du message. Veuillez réessayer plus tard."
+    },
+    "info": {
+      "title": "Coordonnées",
+      "location": "Bordeaux, France",
+      "phone": "07 83 80 00 97",
+      "email": "hoareaufaniry@gmail.com",
+      "linkedin": "LinkedIn",
+      "linkedinUrl": "https://www.linkedin.com/in/hoareau-faniry/"
+    }
+  },
+  "footer": {
+    "copyright": "Tous droits réservés",
+    "madeWith": "Créé avec {{tech}}"
+  }
+}
