@@ -168,7 +168,7 @@
         "description": "Mon site portfolio développé avec React, TypeScript et Tailwind. Responsive et rapide grâce à Vite.",
         "technologies": ["React", "TypeScript", "Tailwind", "Vite"],
         "github": "https://github.com/Fandu11/Portofolio",
-        "demo": "https://tonportfolio.com",
+        "demo": "https://portfolio-hfaniry.vercel.app/",
         "imageKey": "portfolio",
         "date": "2025"
       },

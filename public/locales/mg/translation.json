@@ -167,8 +167,8 @@
         "titre": "Porti-pamantarana ahy",
         "description": "Ny tranokala porti-pamantarana ahy noforonina tamin'ny React, TypeScript ary Tailwind. Azo ampiasaina amin'ny fitaovana samihafa ary haingana noho ny Vite.",
         "technologies": ["React", "TypeScript", "Tailwind", "Vite"],
-        "github": "https://github.com/Fandu11/Portofolio",
-        "demo": "https://tonportfolio.com",
+        "github": "https://github.com/Fandu11/Portfolio",
+        "demo": "https://portfolio-hfaniry.vercel.app/",
         "imageKey": "portfolio",
         "date": "2025"
       },
