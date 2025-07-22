@@ -211,6 +211,14 @@
         "github": "https://github.com/Fandu11/ChampoLove",
         "imageKey": "champolove",
         "date": "2023"
+      },
+      {
+        "titre": "Battleship",
+        "description": "A classic Battleship game implemented in Python with a Tkinter graphical interface and Pygame sound effects. The game allows playing against AI with different difficulty levels.",
+        "technologies": ["Python", "Tkinter", "Pygame"],
+        "github": "https://github.com/Fandu11/Bataille-Navale",
+        "imageKey": "bataille-navale",
+        "date": "2021"
       }
     ]
   },

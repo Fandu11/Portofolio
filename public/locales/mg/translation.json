@@ -197,7 +197,6 @@
         "date": "2024"
       },
       {
-        "titre": "Lalao Labyrinthe Mavitrika",
         "description": "Lalao labyrinthe ara-batana mifototra amin'ny matrice LED ary miasa amin'ny alalan'ny joystick. Ny mpilalao no mampifindra teboka mazava manerana ny lalana, miaraka amin'ny fifandraisana angona lavitra.",
         "technologies": ["Arduino", "Joystick", "Matrice LED", "Fifandraisana Série", "Famantarana 7 segments"],
         "github": "https://github.com/Fandu11/Labyrinthe",
@@ -211,6 +210,14 @@
         "github": "https://github.com/Fandu11/ChampoLove",
         "imageKey": "champolove",
         "date": "2023"
+      },
+      {
+        "titre": "Ady an-tsambo",
+        "description": "Lalao ady an-tsambo natao tamin'ny Python miaraka amin'ny interface graphique Tkinter sy feon-kira Pygame. Azo atao ny milalao amin'ny solosaina miaraka amin'ny haavon-tsarotra samihafa.",
+        "technologies": ["Python", "Tkinter", "Pygame"],
+        "github": "https://github.com/Fandu11/Bataille-Navale",
+        "imageKey": "bataille-navale",
+        "date": "2021"
       }
     ]
   },

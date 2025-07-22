@@ -197,7 +197,6 @@
         "date": "2024"
       },
       {
-        "titre": "Jeu de Labyrinthe Interactif",
         "description": "Un jeu de labyrinthe physique basé sur une matrice de LED et contrôlé par un joystick. Le joueur déplace un point lumineux à travers un parcours, avec une communication de données à distance.",
         "technologies": ["Arduino", "Joystick", "Matrice LED", "Communication Série", "Afficheur 7 segments"],
         "github": "https://github.com/Fandu11/Labyrinthe",
@@ -211,6 +210,15 @@
         "github": "https://github.com/Fandu11/ChampoLove",
         "imageKey": "champolove",
         "date": "2023"
+      },
+      
+      {
+        "titre": "Bataille Navale",
+        "description": "Un jeu de bataille navale classique implémenté en Python avec une interface graphique Tkinter et des effets sonores Pygame. Le jeu permet de jouer contre l'IA avec différents niveaux de difficulté.",
+        "technologies": ["Python", "Tkinter", "Pygame"],
+        "github": "https://github.com/Fandu11/Bataille-Navale",
+        "imageKey": "bataille-navale",
+        "date": "2021"
       }
     ]
   },
