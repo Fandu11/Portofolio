@@ -11,6 +11,7 @@ const aideEcoImg = '/images/projet/aide-eco.png';
 const preteMoiImg = '/images/projet/prete_moi.png';
 const champoloveImg = '/images/projet/Champolove.png';
 const labyrintheImg = '/images/labyrinthe-led.png';
+const batailleNavaleImg = '/images/projet/bataille-navale.png';
 
 const ProjectsSection: React.FC = () => {
   const { t } = useTranslation();
@@ -31,7 +32,8 @@ const ProjectsSection: React.FC = () => {
     'aide-eco': aideEcoImg,
     'prete-moi': preteMoiImg,
     'labyrinthe': labyrintheImg,
-    'champolove': champoloveImg
+    'champolove': champoloveImg,
+    'bataille-navale': batailleNavaleImg
   };
 
   // Fusion des données de traduction avec les chemins d'images
