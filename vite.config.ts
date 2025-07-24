@@ -1,11 +1,37 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import { visualizer } from 'rollup-plugin-visualizer';
+
+// Configuration pour mesurer la taille du bundle en production
+const plugins = [
+  react({
+    // Configuration minimale de Babel
+    babel: {
+      // Désactive les transformations inutiles en production
+      compact: process.env.NODE_ENV === 'production',
+    },
+  }),
+];
+
+// Ajout du visualiseur uniquement en mode analyse
+if (process.env.ANALYZE) {
+  plugins.push(
+    visualizer({
+      open: true,
+      filename: 'bundle-stats.html',
+      gzipSize: true,
+      brotliSize: true,
+    }) as any
+  );
+}
 
 export default defineConfig({
-  plugins: [react()],
+  plugins,
   build: {
     target: 'esnext',
     minify: 'terser',
+    reportCompressedSize: false,
+    cssCodeSplit: true,
     sourcemap: false,
     chunkSizeWarningLimit: 1000,
     rollupOptions: {
@@ -26,10 +52,17 @@ export default defineConfig({
     include: [
       'react',
       'react-dom',
+      'react-dom/client',
       'framer-motion',
       'i18next',
       'react-i18next',
       'lucide-react',
     ],
+    // Force la pré-optimisation des dépendances
+    force: true,
+  },
+  // Configuration pour le mode développement
+  define: {
+    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development'),
   },
 });
