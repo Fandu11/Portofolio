@@ -1,18 +1,11 @@
 {
-  "compression": [
-    {
-      "source": "**/*.@(js|css|html|json|svg|xml|txt|md|ico|eot|ttf|woff|woff2|otf)",
-      "gzip": true,
-      "brotli": true
-    }
-  ],
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "/(.*).(js|css|html|json|svg|xml|txt|md|ico|eot|ttf|woff|woff2|otf)",
       "headers": [
         {
-          "key": "Content-Encoding",
-          "value": "gzip"
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
         }
       ]
     }
