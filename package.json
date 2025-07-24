@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "analyze": "vite build --mode analyze",
+    "analyze:visualize": "npx vite-bundle-visualizer"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -25,19 +27,27 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
+    "@next/bundle-analyzer": "^15.4.3",
+    "@types/node": "^24.1.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@types/react-scroll": "^1.8.10",
     "@vitejs/plugin-react": "^4.5.2",
     "autoprefixer": "^10.4.21",
+    "compression": "^1.8.1",
+    "compression-webpack-plugin": "^11.1.0",
     "eslint": "^9.29.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.2.0",
     "postcss": "^8.5.6",
+    "rollup-plugin-visualizer": "^6.0.3",
+    "source-map-explorer": "^2.5.3",
     "tailwindcss": "^3.4.1",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.34.1",
-    "vite": "^7.0.0"
+    "vite": "^7.0.0",
+    "vite-bundle-visualizer": "^1.2.1",
+    "vite-plugin-compression": "^0.5.1"
   }
 }
