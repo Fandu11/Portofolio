@@ -11,7 +11,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          react: ['react', 'react-dom', 'react-router-dom'],
+          react: ['react', 'react-dom'],
           framer: ['framer-motion'],
           i18n: ['i18next', 'react-i18next'],
           lucide: ['lucide-react'],
@@ -26,7 +26,6 @@ export default defineConfig({
     include: [
       'react',
       'react-dom',
-      'react-router-dom',
       'framer-motion',
       'i18next',
       'react-i18next',
