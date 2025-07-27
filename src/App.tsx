@@ -1,3 +1,4 @@
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/sections/HeroSection';
 import ProjectsSection from './components/sections/ProjectsSection';
@@ -25,6 +26,7 @@ function App() {
         <PassionsSection />
         <ProjectsSection />
         <ContactSection />
+        <SpeedInsights />
       </div>
     </Background>
   );
