@@ -1,8 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { visualizer } from 'rollup-plugin-visualizer';
-import legacy from '@vitejs/plugin-legacy';
-import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 // Configuration pour mesurer la taille du bundle en production
 const plugins = [
@@ -13,45 +11,22 @@ const plugins = [
       compact: process.env.NODE_ENV === 'production',
     },
   }),
-  // Support des navigateurs plus anciens
-  legacy({
-    targets: ['defaults', 'not IE 11'],
-  }),
-  // Optimisation des images (uniquement en production)
-  ...(process.env.NODE_ENV === 'production' ? [ViteImageOptimizer({
-    png: {
-      quality: 75,
-    },
-    jpeg: {
-      quality: 70,
-    },
-    jpg: {
-      quality: 70,
-    },
-    webp: {
-      quality: 75,
-    },
-    avif: {
-      quality: 60,
-    },
-  })] : []),
-  
-  // Ajout du visualiseur uniquement en mode analyse
-  ...(process.env.ANALYZE ? [
+];
+
+// Ajout du visualiseur uniquement en mode analyse
+if (process.env.ANALYZE) {
+  plugins.push(
     visualizer({
       open: true,
       filename: 'bundle-stats.html',
       gzipSize: true,
       brotliSize: true,
-    })
-  ] : [])
-];
-
-// Filtrer les plugins undefined (imagemin en développement)
-const filteredPlugins = plugins.filter(Boolean);
+    }) as any
+  );
+}
 
 export default defineConfig({
-  plugins: filteredPlugins,
+  plugins,
   build: {
     target: 'esnext',
     minify: 'terser',
