@@ -22,22 +22,13 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
 
   return (
     <div className="relative h-64 md:h-64 lg:h-72 w-full overflow-hidden rounded-lg bg-black">
-      <div
-        style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-        className="flex transition-transform duration-500 h-full"
-      >
-        {images.map((image, index) => (
-          <div
-            key={index}
-            className="flex-shrink-0 w-full h-full flex items-center justify-center bg-black"
-          >
-            <ProtectedImage
-              src={image}
-              alt={`Image ${index + 1}`}
-              className="w-full h-full object-contain"
-            />
-          </div>
-        ))}
+      <div className="w-full h-full flex items-center justify-center bg-black">
+        <ProtectedImage
+          key={images[currentIndex]}
+          src={images[currentIndex]}
+          alt={`Image ${currentIndex + 1}`}
+          className="w-full h-full object-contain"
+        />
       </div>
 
       {/* Bouton précédent */}
