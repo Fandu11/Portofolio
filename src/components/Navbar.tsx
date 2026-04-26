@@ -87,16 +87,18 @@ const Navbar: React.FC = () => {
           <div className="relative language-selector">
             <button
               onClick={() => setIsLanguageMenuOpen(!isLanguageMenuOpen)}
-              className="flex items-center space-x-1 text-black hover:text-indigo-500 transition-colors duration-300 px-3 py-2 rounded-md hover:bg-white/10"
+              className="flex items-center gap-2 text-white bg-gray-900/70 border border-gray-700 hover:border-indigo-500 hover:bg-indigo-500/10 transition-all duration-300 px-3 py-2 rounded-md"
               aria-label="Change language"
             >
-              <Globe size={18} />
-              <span className="text-sm">{i18n.language?.toUpperCase?.() || 'FR'}</span>
+              <Globe size={16} className="text-indigo-400" />
+              <span className="text-xs font-semibold tracking-wide">
+                {(i18n.language?.split('-')?.[0] || 'fr').toUpperCase()}
+              </span>
             </button>
             
             {isLanguageMenuOpen && (
-              <div className="absolute right-0 mt-2 w-40 bg-gray-800 rounded-md shadow-lg py-1 z-50">
-                <p className="px-4 py-2 text-sm text-gray-300 border-b border-gray-700">
+              <div className="absolute right-0 mt-2 w-44 bg-black border border-gray-700 rounded-lg shadow-xl py-1 z-50">
+                <p className="px-4 py-2 text-xs font-medium tracking-wide text-white border-b border-gray-700">
                   {t('language.switch')}
                 </p>
                 {isChangingLanguage ? (
@@ -107,19 +109,19 @@ const Navbar: React.FC = () => {
                   <>
                     <button
                       onClick={() => handleLanguageChange('fr')}
-                      className={`block w-full text-left px-4 py-2 text-sm ${i18n.language?.startsWith('fr') ? 'bg-indigo-600 text-white' : 'text-gray-300 hover:bg-gray-700'}`}
+                      className={`block w-full text-left px-4 py-2.5 text-sm transition-colors duration-200 ${i18n.language?.startsWith('fr') ? 'bg-indigo-600 text-white font-semibold' : 'bg-black text-white hover:bg-gray-800'}`}
                     >
                       {t('language.fr')}
                     </button>
                     <button
                       onClick={() => handleLanguageChange('en')}
-                      className={`block w-full text-left px-4 py-2 text-sm ${i18n.language?.startsWith('en') ? 'bg-indigo-600 text-white' : 'text-gray-300 hover:bg-gray-700'}`}
+                      className={`block w-full text-left px-4 py-2.5 text-sm transition-colors duration-200 ${i18n.language?.startsWith('en') ? 'bg-indigo-600 text-white font-semibold' : 'bg-black text-white hover:bg-gray-800'}`}
                     >
                       {t('language.en')}
                     </button>
                     <button
                       onClick={() => handleLanguageChange('mg')}
-                      className={`block w-full text-left px-4 py-2 text-sm ${i18n.language?.startsWith('mg') ? 'bg-indigo-600 text-white' : 'text-gray-300 hover:bg-gray-700'}`}
+                      className={`block w-full text-left px-4 py-2.5 text-sm transition-colors duration-200 ${i18n.language?.startsWith('mg') ? 'bg-indigo-600 text-white font-semibold' : 'bg-black text-white hover:bg-gray-800'}`}
                     >
                       {t('language.mg')}
                     </button>
@@ -146,15 +148,15 @@ const Navbar: React.FC = () => {
           <div className="relative language-selector">
             <button
               onClick={() => setIsLanguageMenuOpen(!isLanguageMenuOpen)}
-              className="text-white hover:text-indigo-500 transition-colors duration-300 p-2 rounded-full hover:bg-white/10"
+              className="flex items-center justify-center text-white bg-gray-900/70 border border-gray-700 hover:border-indigo-500 hover:bg-indigo-500/10 transition-all duration-300 p-2 rounded-full"
               aria-label="Change language"
             >
-              <Globe size={20} />
+              <Globe size={18} className="text-indigo-400" />
             </button>
             
             {isLanguageMenuOpen && (
-              <div className="absolute right-0 mt-2 w-40 bg-gray-800 rounded-md shadow-lg py-1 z-50">
-                <p className="px-4 py-2 text-sm text-gray-300 border-b border-gray-700">
+              <div className="absolute right-0 mt-2 w-44 bg-black border border-gray-700 rounded-lg shadow-xl py-1 z-50">
+                <p className="px-4 py-2 text-xs font-medium tracking-wide text-white border-b border-gray-700">
                   {t('language.switch')}
                 </p>
                 {isChangingLanguage ? (
@@ -165,19 +167,19 @@ const Navbar: React.FC = () => {
                   <>
                     <button
                       onClick={() => handleLanguageChange('fr')}
-                      className={`block w-full text-left px-4 py-2 text-sm ${i18n.language?.startsWith('fr') ? 'bg-indigo-600 text-white' : 'text-gray-300 hover:bg-gray-700'}`}
+                      className={`block w-full text-left px-4 py-2.5 text-sm transition-colors duration-200 ${i18n.language?.startsWith('fr') ? 'bg-indigo-600 text-white font-semibold' : 'bg-black text-white hover:bg-gray-800'}`}
                     >
                       {t('language.fr')}
                     </button>
                     <button
                       onClick={() => handleLanguageChange('en')}
-                      className={`block w-full text-left px-4 py-2 text-sm ${i18n.language?.startsWith('en') ? 'bg-indigo-600 text-white' : 'text-gray-300 hover:bg-gray-700'}`}
+                      className={`block w-full text-left px-4 py-2.5 text-sm transition-colors duration-200 ${i18n.language?.startsWith('en') ? 'bg-indigo-600 text-white font-semibold' : 'bg-black text-white hover:bg-gray-800'}`}
                     >
                       {t('language.en')}
                     </button>
                     <button
                       onClick={() => handleLanguageChange('mg')}
-                      className={`block w-full text-left px-4 py-2 text-sm ${i18n.language?.startsWith('mg') ? 'bg-indigo-600 text-white' : 'text-gray-300 hover:bg-gray-700'}`}
+                      className={`block w-full text-left px-4 py-2.5 text-sm transition-colors duration-200 ${i18n.language?.startsWith('mg') ? 'bg-indigo-600 text-white font-semibold' : 'bg-black text-white hover:bg-gray-800'}`}
                     >
                       {t('language.mg')}
                     </button>
