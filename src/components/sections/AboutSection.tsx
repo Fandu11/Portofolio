@@ -5,13 +5,8 @@ import ProtectedImage from '../common/ProtectedImage';
 import pdp1 from '../../assets/images/pdp1.jpg';
 
 const AboutSection: React.FC = () => {
-  const { t, i18n } = useTranslation();
-  
-  // Log des clés de traduction disponibles
-  React.useEffect(() => {
-    console.log('Langue actuelle:', i18n.language);
-    console.log('Clés de traduction (about):', Object.keys(i18n.getResourceBundle(i18n.language, 'translation')?.about || {}));
-  }, [i18n.language]);
+  const { t } = useTranslation();
+
   return (
     <section id="about" className="py-20 bg-gray-900">
       <div className="max-w-5xl mx-auto px-4">

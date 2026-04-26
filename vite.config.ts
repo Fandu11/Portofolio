@@ -1,9 +1,9 @@
-import { defineConfig } from 'vite';
+import { defineConfig, type PluginOption } from 'vite';
 import react from '@vitejs/plugin-react';
 import { visualizer } from 'rollup-plugin-visualizer';
 
 // Configuration pour mesurer la taille du bundle en production
-const plugins = [
+const plugins: PluginOption[] = [
   react({
     // Configuration minimale de Babel
     babel: {
@@ -21,7 +21,7 @@ if (process.env.ANALYZE) {
       filename: 'bundle-stats.html',
       gzipSize: true,
       brotliSize: true,
-    }) as any
+    }) as PluginOption
   );
 }
 
