@@ -38,6 +38,11 @@
   },
   "experience": {
     "title": "Ny lalana nalehako",
+    "sections": {
+      "education": "Fianarana",
+      "professional": "Lalana matihanina",
+      "volley": "Volley"
+    },
     "items": [
       {
         "type": "experience",
