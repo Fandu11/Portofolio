@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import ProtectedImage from '../common/ProtectedImage';
-import pdp1 from '../../assets/images/pdp1.jpg';
+import pdp1 from '../../assets/images/pdp.png';
 
 const AboutSection: React.FC = () => {
   const { t } = useTranslation();

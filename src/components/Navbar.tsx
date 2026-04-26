@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 import { Menu, X, Download, Globe } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import ProtectedImage from './common/ProtectedImage';
-import pdp1 from '../assets/images/pdp1.jpg';
+import pdp1 from '../assets/images/pdp.png';
 
 
 const Navbar: React.FC = () => {
