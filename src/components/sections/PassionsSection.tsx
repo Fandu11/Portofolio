@@ -17,10 +17,10 @@ import dec4 from '../../assets/images/decouverte/dec4.jpg';
 import dec5 from '../../assets/images/decouverte/dec5.jpg';
 import dec6 from '../../assets/images/decouverte/dec6.jpg';
 import volley0 from '../../assets/images/volley/v0.jpg';
-import volley1 from '../../assets/images/volley/v1.jpg';
+/*import volley1 from '../../assets/images/volley/v1.jpg';
 import volley2 from '../../assets/images/volley/v2.jpg';
 import volley3 from '../../assets/images/volley/v3.jpg';
-import volley4 from '../../assets/images/volley/v4.jpg';
+import volley4 from '../../assets/images/volley/v4.jpg'; */
 import volley6 from '../../assets/images/volley/v6.jpg';
 import volley7 from '../../assets/images/volley/v7.jpg';
 import volley8 from '../../assets/images/volley/v8.jpg';
@@ -65,8 +65,12 @@ const PassionsSection: React.FC = () => {
       'Découverte de Nouvelles Choses': [dec1, dec0, dec2, dec3, dec4, dec5, dec6],
       'Discovering New Things': [dec1, dec0, dec2, dec3, dec4, dec5, dec6],
       'Fikarohana Zavavao': [dec1, dec0, dec2, dec3, dec4, dec5, dec6],
-      'Volley-Ball': [volley0, volley1, volley2, volley3, volley4, volley6, volley7, volley8, volley9, volley10, volley11, volley12, volley13],
+
+      /* 'Volley-Ball': [volley0, volley1, volley2, volley3, volley4, volley6, volley7, volley8, volley9, volley10, volley11, volley12, volley13],
       'Volleyball': [volley0, volley1, volley2, volley3, volley4, volley6, volley7, volley8, volley9, volley10, volley11, volley12, volley13],
+      */
+      'Volley-Ball': [volley0, volley6, volley7, volley8, volley9, volley10, volley11, volley12, volley13],
+      'Volleyball': [volley0,  volley6, volley7, volley8, volley9, volley10, volley11, volley12, volley13],
       'Basket-Ball': [basket1, basket2],
       'Basketball': [basket1, basket2],
       'Randonnée': [rando1, rando2, rando3, rando4, rando5, rando6, rando7, rando8, rando9, rando10, rando11, rando12, rando13],
