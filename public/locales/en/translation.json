@@ -38,6 +38,11 @@
   },
   "experience": {
     "title": "My Journey",
+    "sections": {
+      "education": "Education",
+      "professional": "Professional Journey",
+      "volley": "Volleyball"
+    },
     "items": [
       {
         "type": "experience",

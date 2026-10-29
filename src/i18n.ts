@@ -9,7 +9,10 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: 'fr',
-    debug: true, // Activation du mode debug
+    supportedLngs: ['fr', 'en', 'mg'],
+    load: 'languageOnly',
+    nonExplicitSupportedLngs: true,
+    debug: false,
     interpolation: {
       escapeValue: false,
     },
@@ -17,11 +20,5 @@ i18n
       loadPath: '/locales/{{lng}}/{{ns}}.json',
     },
   });
-
-// Log des ressources chargées
-i18n.on('languageChanged', (lng) => {
-  console.log(`Langue changée: ${lng}`);
-  console.log('Ressources chargées:', i18n.getDataByLanguage(lng));
-});
 
 export default i18n;

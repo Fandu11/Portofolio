@@ -10,6 +10,9 @@ import ContactSection from './components/sections/ContactSection';
 import Background from './components/Background';
 
 function App() {
+  const showSpeedInsights =
+    import.meta.env.PROD && import.meta.env.VITE_ENABLE_SPEED_INSIGHTS === 'true';
+
   const handleScroll = () => {
     // Gestion du défilement si nécessaire
     // console.log(window.scrollY);
@@ -26,7 +29,7 @@ function App() {
         <PassionsSection />
         <ProjectsSection />
         <ContactSection />
-        <SpeedInsights />
+        {showSpeedInsights ? <SpeedInsights /> : null}
       </div>
     </Background>
   );

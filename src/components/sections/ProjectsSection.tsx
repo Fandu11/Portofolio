@@ -43,8 +43,8 @@ const ProjectsSection: React.FC = () => {
   }));
 
   return (
-    <section id="projets" className="py-16 px-4 bg-gray-900">
-      <div className="max-w-5xl mx-auto">
+    <section id="projects" className="py-16 px-4 bg-black">
+      <div className="w-[80%] max-w-none mx-auto">
         <h2 className="text-3xl font-bold text-center text-white mb-12">
           {t('projects.title')}
         </h2>
@@ -63,6 +63,8 @@ const ProjectsSection: React.FC = () => {
                 <img 
                   src={projet.image} 
                   alt={projet.titre}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>

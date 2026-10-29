@@ -38,6 +38,11 @@
   },
   "experience": {
     "title": "Mon Parcours",
+    "sections": {
+      "education": "Etudes",
+      "professional": "Parcours professionnel",
+      "volley": "Volley"
+    },
     "items": [
       {
         "type": "experience",
