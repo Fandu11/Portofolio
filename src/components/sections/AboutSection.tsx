@@ -4,8 +4,24 @@ import { useTranslation } from 'react-i18next';
 import ProtectedImage from '../common/ProtectedImage';
 import pdp1 from '../../assets/images/pdp.webp';
 
+const calculateAge = (birthDate: Date, currentDate = new Date()): number => {
+  let age = currentDate.getFullYear() - birthDate.getFullYear();
+  const birthdayThisYear = new Date(
+    currentDate.getFullYear(),
+    birthDate.getMonth(),
+    birthDate.getDate(),
+  );
+
+  if (currentDate < birthdayThisYear) {
+    age -= 1;
+  }
+
+  return age;
+};
+
 const AboutSection: React.FC = () => {
   const { t } = useTranslation();
+  const age = calculateAge(new Date(2003, 7, 10));
 
   return (
     <section id="about" className="py-20 bg-gray-900">
@@ -33,7 +49,7 @@ const AboutSection: React.FC = () => {
 
             {/* Infos personnelles */}
             <div className="bg-gray-800 rounded-xl p-4 shadow-lg text-gray-300 space-y-2 text-sm">
-              <p><span className="font-semibold text-white">{t('about.age')} :</span> 22 {t('about.years')}</p>
+              <p><span className="font-semibold text-white">{t('about.age')} :</span> {age} {t('about.years')}</p>
               <p><span className="font-semibold text-white">{t('about.location')} :</span> {t('about.city')}</p>
               <p><span className="font-semibold text-white">{t('about.status')} :</span> {t('about.education')}</p>
               <p><span className="font-semibold text-white">{t('about.languages')} :</span> {t('about.languageList')}</p>

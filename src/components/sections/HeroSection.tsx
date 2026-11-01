@@ -24,17 +24,28 @@ const HeroSection: React.FC = () => {
       }}
       className="min-h-screen relative flex items-center justify-center text-center px-4 sm:px-6 lg:px-8"
     >
-      <div className="text-white">
+      <div className="hero-content text-white">
+        <div className="terminal-prompt mb-5 text-left text-sm">
+          <span className="terminal-dot" />
+          <span>faniry@portfolio:~$ ./welcome.sh</span>
+        </div>
         <h1 className="text-4xl sm:text-6xl font-bold mb-6">
           {t('hero.title')}
         </h1>
         <p className="text-xl sm:text-2xl mb-8">
           {t('hero.subtitle')}
         </p>
+        <div className="flex flex-wrap justify-center gap-3 mb-8 text-xs sm:text-sm">
+          <span className="hero-badge">{"<"} Java / JavaFX {"/>"}</span>
+          <span className="hero-badge">{"<"} Python {"/>"}</span>
+          <span className="hero-badge">{"<"} React / TypeScript {"/>"}</span>
+          <span className="hero-badge">{"<"} Full Stack {"/>"}</span>
+        </div>
         <a
           href="#contact"
-          className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-300"
+          className="hero-cta inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-300"
         >
+          <span className="mr-2">$</span>
           {t('hero.cta')}
         </a>
       </div>

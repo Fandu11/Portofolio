@@ -62,7 +62,7 @@ const Background: React.FC<Props> = ({ children }) => {
       )}
 
       {/* Voile noir transparent par-dessus la vidéo */}
-      <div className="fixed inset-0 bg-black bg-opacity-50 z-10"></div>
+      <div className="background-overlay fixed inset-0 z-10"></div>
 
       {/* Contenu par-dessus */}
       <div className="relative z-20">{children}</div>

@@ -61,7 +61,7 @@ const Navbar: React.FC = () => {
             className="w-10 h-10 rounded-full object-cover border-2 border-indigo-500"
           />
           <a href="#" className="text-2xl font-bold text-indigo-600 hover:text-indigo-500 transition-colors duration-300">
-            HFaniry
+            <span className="text-gray-500">~/</span>HFaniry
           </a>
         </div>
 
