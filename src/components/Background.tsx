@@ -16,18 +16,25 @@ const Background: React.FC<Props> = ({ children }) => {
     const connection = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
     const saveDataEnabled = Boolean(connection?.saveData);
 
-    setShowVideo(!prefersReducedMotion && !isMobileViewport && !saveDataEnabled);
+    if (prefersReducedMotion || isMobileViewport || saveDataEnabled) {
+      return;
+    }
+
+    const timer = window.setTimeout(() => setShowVideo(true), 1200);
+    return () => window.clearTimeout(timer);
   }, []);
 
   return (
     <div className="relative min-h-screen w-full overflow-hidden text-white">
       {/* Image de fallback pour les mobiles */}
       <picture className="fixed inset-0 w-full h-full object-cover">
-        <source media="(max-width: 768px)" srcSet="/images/circuit1.jpg" />
+        <source media="(max-width: 768px)" srcSet="/images/circuit1.webp" />
         <ProtectedImage 
-          src="/images/circuit1.jpg" 
+          src="/images/circuit1.webp"
           alt="Développeur d'applications" 
           className="fixed inset-0 w-full h-full object-cover" 
+          loading="eager"
+          fetchPriority="high"
         />
       </picture>
 
@@ -40,7 +47,7 @@ const Background: React.FC<Props> = ({ children }) => {
           playsInline
           loop
           preload="none"
-          poster="/images/circuit1.jpg"
+          poster="/images/circuit1.webp"
           style={{
             transform: 'scale(1.01)',
             willChange: 'transform',

@@ -28,6 +28,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
           src={images[currentIndex]}
           alt={`Image ${currentIndex + 1}`}
           className="w-full h-full object-contain"
+          sizes="(min-width: 1024px) 30vw, (min-width: 768px) 50vw, 100vw"
         />
       </div>
 

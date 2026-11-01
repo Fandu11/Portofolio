@@ -5,13 +5,13 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 // Chemins des images (dans public/images/projet/)
-const portfolioImg = '/images/projet/portofolio_v1.png';
-const watermineImg = '/images/projet/watermine.png';
-const aideEcoImg = '/images/projet/aide-eco.png';
-const preteMoiImg = '/images/projet/prete_moi.png';
-const champoloveImg = '/images/projet/Champolove.png';
-const labyrintheImg = '/images/labyrinthe-led.png';
-const batailleNavaleImg = '/images/projet/bataille-navale.png';
+const portfolioImg = '/images/projet/portofolio_v1.webp';
+const watermineImg = '/images/projet/watermine.webp';
+const aideEcoImg = '/images/projet/aide-eco.webp';
+const preteMoiImg = '/images/projet/prete_moi.webp';
+const champoloveImg = '/images/projet/Champolove.webp';
+const labyrintheImg = '/images/labyrinthe-led.webp';
+const batailleNavaleImg = '/images/projet/bataille-navale.webp';
 
 const ProjectsSection: React.FC = () => {
   const { t } = useTranslation();
@@ -39,7 +39,7 @@ const ProjectsSection: React.FC = () => {
   // Fusion des données de traduction avec les chemins d'images
   const projets = projetsData.map(projet => ({
     ...projet,
-    image: imageMap[projet.imageKey] || ''
+    image: imageMap[projet.imageKey] || portfolioImg
   }));
 
   return (
@@ -52,7 +52,7 @@ const ProjectsSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projets.map((projet, index) => (
             <motion.div
-              key={index}
+              key={projet.imageKey}
               className="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col h-full"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -65,6 +65,7 @@ const ProjectsSection: React.FC = () => {
                   alt={projet.titre}
                   loading="lazy"
                   decoding="async"
+                  sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>

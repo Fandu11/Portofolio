@@ -25,6 +25,7 @@ const ProtectedImage: React.FC<ProtectedImageProps> = ({ src, alt, className, ..
         className={className}
         loading={props.loading ?? 'lazy'}
         decoding={props.decoding ?? 'async'}
+        draggable={false}
         onContextMenu={handleContextMenu}
         onDragStart={handleDragStart}
         {...props}

@@ -1,7 +1,7 @@
 // src/components/ContactSection.tsx
 import React, { useState, useEffect } from 'react';
 import { Mail, MapPin, Phone, Linkedin } from 'lucide-react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import { useTranslation } from 'react-i18next';
 
 const ContactSection: React.FC = () => {
@@ -32,10 +32,7 @@ const ContactSection: React.FC = () => {
 
   const handleCaptchaChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
-    console.log('Valeur du captcha saisie:', value);
-    console.log('Valeur attendue:', captchaText);
     const isValid = value === captchaText;
-    console.log('Captcha valide?', isValid);
     setCaptchaValue(value);
     setFormValid(isValid);
   };
@@ -44,7 +41,6 @@ const ContactSection: React.FC = () => {
     e.preventDefault();
     
     if (!formValid) {
-      console.log('Formulaire non valide');
       return;
     }
 
@@ -82,7 +78,6 @@ const ContactSection: React.FC = () => {
   useEffect(() => {
     try {
       emailjs.init('FO2ZCde4sddr5MKY-');
-      console.log('EmailJS initialisé avec succès');
     } catch (error) {
       console.error('Erreur lors de l\'initialisation d\'EmailJS:', error);
     }
