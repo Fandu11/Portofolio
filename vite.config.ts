@@ -51,8 +51,6 @@ export default defineConfig({
       output: {
         manualChunks: (id) => {
           if (id.includes('node_modules')) {
-            if (id.includes('react-dom')) return 'vendor_react-dom';
-            if (id.includes('react')) return 'vendor_react';
             if (id.includes('framer-motion')) return 'vendor_framer';
             if (id.includes('i18next') || id.includes('react-i18next')) return 'vendor_i18n';
             if (id.includes('lucide-react')) return 'vendor_lucide';
